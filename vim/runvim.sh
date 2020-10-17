@@ -1,0 +1,2 @@
+mv .vim ~/
+mv .vimrc ~/
