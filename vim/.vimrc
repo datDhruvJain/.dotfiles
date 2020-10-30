@@ -3,7 +3,7 @@ set number relativenumber wrap linebreak noerrorbells    belloff=all
 
 " Highlight relative number
 " cursorlineopt=both is for number and line
-set cursorlineopt=number cursorline
+" set cursorlineopt=number cursorline
 
 colorscheme vim-monokai-tasty 
 
