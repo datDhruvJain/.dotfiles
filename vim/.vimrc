@@ -1,6 +1,10 @@
 set number relativenumber wrap linebreak noerrorbells    belloff=all
 " nobackup nowritebackup
-colorscheme molokai 
+
+" Set cursorline highlighting
+set cursorlineopt=number cursorline
+
+colorscheme vim-monokai-tasty 
 
 let mapleader=","
 nmap <leader>n :23Lexplore<cr>
