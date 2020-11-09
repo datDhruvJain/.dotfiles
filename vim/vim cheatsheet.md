@@ -1,5 +1,6 @@
 # A Great Vim Cheat Sheet
 
+[Check This amazing resource from freecodecamp too!](https://www.freecodecamp.org/news/learn-linux-vim-basic-features-19134461ab85/)
 
 Note: If you’re decent at Vim and want your mind blown, check out [Advanced Vim](advanced.html).
 
