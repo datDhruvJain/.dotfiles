@@ -16,3 +16,6 @@ syntax on
 
 let g:netrw_banner=0
 " let g:airline#extensions#tabline#enabled = 1
+
+" GUI Window size
+" set lines=30 columns=108
