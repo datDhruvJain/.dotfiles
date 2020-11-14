@@ -5,7 +5,7 @@ set number relativenumber wrap linebreak noerrorbells    belloff=all
 " cursorlineopt=both is for number and line
 " set cursorlineopt=number cursorline
 
-" colorscheme badwolf
+colorscheme badwolf
 
 let mapleader=","
 nmap <leader>n :21Lexplore<cr>
