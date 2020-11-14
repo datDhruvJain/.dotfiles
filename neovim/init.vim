@@ -1,8 +1,9 @@
-set number relativenumber nowrap linebreak nobackup nowritebackup noswapfile noerrorbells belloff=all
+set number nowrap linebreak nobackup nowritebackup noswapfile noerrorbells belloff=all
+" set relativenumber
 
 " Highlight relative number
 " cursorlineopt=both is for number and line
-set cursorlineopt=number cursorline
+" set cursorlineopt=number cursorline
 
 " set t_Co=256
 " only for windows
