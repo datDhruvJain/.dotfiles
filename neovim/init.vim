@@ -11,6 +11,8 @@ set number nowrap linebreak nobackup nowritebackup noswapfile noerrorbells bello
 let mapleader=','
 nmap <leader>n :21Lexplore<cr>
 nmap <leader>t :tabnew<cr>
+nmap <leader>q :set number
+nmap <leader>w :set nonumber
 
 colorscheme badwolf
 " to hide the statusline when only one window is open
