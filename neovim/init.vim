@@ -8,7 +8,7 @@ set cursorlineopt=number cursorline
 " only for windows
 
 let mapleader=','
-nmap <leader>n :25Lexplore<cr>
+nmap <leader>n :21Lexplore<cr>
 nmap <leader>t :tabnew<cr>
 
 " to hide the statusline when only one window is open
