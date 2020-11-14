@@ -8,6 +8,8 @@ set number nowrap linebreak nobackup nowritebackup noswapfile noerrorbells bello
 " set t_Co=256
 " only for windows
 
+let g:netrw_banner=0
+
 let mapleader=','
 nmap <leader>n :21Lexplore<cr>
 nmap <leader>t :tabnew<cr>
