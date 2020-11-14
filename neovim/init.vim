@@ -12,5 +12,6 @@ let mapleader=','
 nmap <leader>n :21Lexplore<cr>
 nmap <leader>t :tabnew<cr>
 
+colorscheme badwolf
 " to hide the statusline when only one window is open
 " set laststatus=1
