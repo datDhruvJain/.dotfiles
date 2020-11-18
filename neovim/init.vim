@@ -11,12 +11,13 @@ set number nowrap linebreak nobackup nowritebackup noswapfile noerrorbells bello
 let g:netrw_banner=0
 
 let mapleader=','
-nmap <leader>n :21Lexplore<cr>
+
+nmap <leader>n :19Lexplore<cr>
 nmap <leader>t :tabnew<cr>
+
 nmap <leader>q :set number<cr>
 nmap <leader>w :set nonumber<cr>
-nmap <leader>qq :set cursorline<cr>
-nmap <leader>ww :set nocursorline<cr>
+
 colorscheme badwolf
 " to hide the statusline when only one window is open
 " set laststatus=1
