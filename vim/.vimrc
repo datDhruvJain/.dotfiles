@@ -8,14 +8,13 @@ set number relativenumber wrap linebreak noerrorbells    belloff=all
 colorscheme badwolf
 
 let mapleader=","
-nmap <leader>n :21Lexplore<cr>
-nmap <leader>b :17Lexplore<cr>
+
+nmap <leader>n :19Lexplore<cr>
 nmap <leader>t :tabnew<cr>
 
 nmap <leader>q :set number
 nmap <leader>w :set nonumber
-nmap <leader>qq :set cursorline<cr>
-nmap <leader>ww :set nocursorline<cr>
+
 
 filetype indent plugin on
 syntax on
