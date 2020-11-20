@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =6
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/Applications/MacVim.app/Contents/MacOS'
 let g:netrw_dirhist_6='/Users/dhruv'
 let g:netrw_dirhist_5='/Users/dhruv/OOPS-Lab'
 let g:netrw_dirhist_4='/Users/dhruv/OOPS-Lab/oop-lab6'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_1='/Users/dhruv/OOPS-Lab'
 let g:netrw_dirhist_0='/Users/dhruv/OOPS-Lab/oop-lab7'
 let g:netrw_dirhist_9='/Users/dhruv/OOPS-Lab'
 let g:netrw_dirhist_8='/Users/dhruv'
-let g:netrw_dirhist_7='/Users/dhruv/OOPS-Lab/oop-lab7'
