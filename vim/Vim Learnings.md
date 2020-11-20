@@ -21,3 +21,15 @@ you can set the statusline color with `:hi Statusline ctermbg=[0-256] ctermfg=[0
 `mb%zf'a` assigns fold
 
 #### Bracket matching happens with % in normal mode
+
+# Netrw (File Explorer)
+
+You can open the default file explorer with `:Explore` or use `:Lexplore` or `:Lex` to open a toggalable Netrw window on the left.
+
+You can specify the size with `:19Lexplore` or `:[size]Lex`
+
+# Visual Block mode
+
+To add something to to alot of line together, you can use the visual block mode.
+
+Enter visual block mode using `ctrl-v` and mark all the lines, then type `I`, Capital "I" and insert text, then press `esc` and then... magic! 
