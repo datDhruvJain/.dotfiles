@@ -1,5 +1,6 @@
 # Completion Features
 
+(do not work in normal mode, work in insert mode, Don't know about other modes)
 - `<Ctrl-x>` brings up autocompletion features.
 - `<Ctrl-n>` matches word already used in the file
 - `<Ctrl-l>` matches entire lines
