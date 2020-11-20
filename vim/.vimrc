@@ -16,9 +16,8 @@ nmap <leader>n :19Lexplore!<cr>
 
 nmap <leader>t :tabnew<cr>
 
-nmap <leader>q :set number
-nmap <leader>w :set nonumber
-
+nmap <leader>q :set number<cr>
+nmap <leader>w :set nonumber<cr>
 
 filetype indent plugin on
 syntax on
