@@ -14,4 +14,5 @@ set cursorlineopt=number cursorline
 set columns=122 lines=29
 " change based on font, currently set for Monaco:h14
 
-nmap <leader>t :tabnew
+nmap <leader>t :tabnew<cr>
+nmap <leader>n :19Lexplore!<cr>
