@@ -9,9 +9,9 @@ colorscheme badwolf
 
 let mapleader=","
 
-nmap <leader>n :19Lexplore<cr>
+" nmap <leader>n :19Lexplore<cr>
 " open Netrw on left
-" nmap <leader>n :19Lexplore!<cr>
+ nmap <leader>n :19Lexplore!<cr>
 " open Netrw on right
 
 nmap <leader>t :tabnew<cr>
