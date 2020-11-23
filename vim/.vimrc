@@ -5,6 +5,9 @@ set number wrap linebreak noerrorbells belloff=all
 " cursorlineopt=both is for number and line
 " set cursorlineopt=number cursorline
 
+set laststatus=0
+" hide the bottom status bar
+
 colorscheme badwolf
 
 let mapleader=","
