@@ -8,7 +8,7 @@
     "workbench.activityBar.visible": false,
     "workbench.statusBar.visible": true,
     "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false
+    "workbench.editor.enablePreviewFromQuickOpen": false,
     
     "workbench.sideBar.location": "right",
     "editor.lineDecorationsWidth": 0,
