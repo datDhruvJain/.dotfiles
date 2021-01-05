@@ -9,4 +9,8 @@
     "workbench.statusBar.visible": true,
     "workbench.editor.enablePreview": false,
     "workbench.editor.enablePreviewFromQuickOpen": false
+    
+    "workbench.sideBar.location": "right",
+    "editor.lineDecorationsWidth": 0,
+    "editor.glyphMargin": false,
 }
