@@ -1,4 +1,3 @@
-
 set number noswapfile linebreak noerrorbells belloff=all
 " relativenumber nobackup nowritebackup nowrap
 "
@@ -10,7 +9,7 @@ set foldmethod=syntax nofoldenable
 " set cursorlineopt=number cursorline
 
 " hide/show the bottom status bar : 
-set laststatus=2
+" set laststatus=2
 
 set bg=dark
 colorscheme my_molokai 
