@@ -1,5 +1,10 @@
 "set guifont=Andale\ Mono:h13
-set guifont=Monaco:h14
+
+" set guifont=Monaco:h14
+" set columns=122 lines=29
+
+set guifont=Menlo-Regular:h14
+set columns=122 lines=34
 
 set guioptions=gm
 " e for tabpages
@@ -11,7 +16,6 @@ set guioptions=gm
 set laststatus=0
 set cursorlineopt=number cursorline
 
-set columns=122 lines=29
 " change based on font, currently set for Monaco:h14
 
 nmap <leader>t :tabnew<cr>
