@@ -1,16 +1,24 @@
+call plug#begin('~/.vim/plugged')
 
-set number noswapfile nowrap linebreak noerrorbells belloff=all
-" relativenumber nobackup nowritebackup
+Plug 'tpope/vim-fugitive'
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'vim-airline/vim-airline'
+
+call plug#end()
+
+set number noswapfile linebreak noerrorbells belloff=all
+" relativenumber nobackup nowritebackup nowrap
 "
 " Fold settings
 set foldmethod=syntax nofoldenable
 
-" Highlight relative number
-" cursorlineopt=both is for number and line
+" Highlight relative number :
+" cursorlineopt=both is for number and line : 
 " set cursorlineopt=number cursorline
 
-set laststatus=0
-" hide the bottom status bar
+" hide/show the bottom status bar : 
+set laststatus=2
+
 set bg=dark
 colorscheme my_molokai 
 
@@ -39,5 +47,3 @@ filetype indent plugin on
 syntax on
 
 let g:netrw_banner=0
-" let g:airline#extensions#tabline#enabled = 1
-Hello from vim

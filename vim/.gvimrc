@@ -13,7 +13,6 @@ set guioptions=gm
 " no r for no right scrollbar
 " no L for no Left scrollbar on split window
 
-set laststatus=0
 set cursorlineopt=number cursorline
 
 " change based on font, currently set for Monaco:h14

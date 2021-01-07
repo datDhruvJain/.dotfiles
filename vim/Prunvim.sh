@@ -1,8 +1,11 @@
 rm ~/.vimrc
+rm ~/.gvimrc
 
-cat ~/.dotfile/vim/plugins_vimrc.vim > ~/.dotfiles/vim-personalized/.vimrc
-cat ~/.dotfile/vim/base_vimrc.vim >> ~/.dotfiles/vim-personalized/.vimrc 
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+cat ~/.dotfiles/vim/plugins_vimrc.vim > ~/.dotfiles/vim/.vimrc
+cat ~/.dotfiles/vim/base_vimrc.vim >> ~/.dotfiles/vim/.vimrc 
 
 ln -s ~/.dotfiles/vim/.vimrc ~/
-ln -s ~/.dotfiles/vim/.vim ~/
 ln -s ~/.dotfiles/vim/.gvimrc ~/
