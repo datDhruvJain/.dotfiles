@@ -1,5 +1,8 @@
-ln -s ~/dotfiles/vim/.vimrc ~/
-ln -s ~/dotfiles/vim/.vim ~/
-ln -s ~/dotfiles/vim/.gvimrc ~/
+rm ~/.vimrc ~/.gvimrc
+rm -rf ~/.vim/colors
 
-# git clone https://github.com/vim-airline/vim-airline ~/.vim/pack/dist/start/vim-airline
+cat ~/.dotfiles/vim/base_vimrc.vim > ~/.dotfiles/vim/.vimrc
+
+ln -s ~/.dotfiles/vim/.vimrc ~/.vimrc
+ln -s ~/.dotfiles/vim/.gvimrc ~/
+ln -s ~/.dotfiles/vim/colors ~/.vim/

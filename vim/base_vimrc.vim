@@ -40,4 +40,3 @@ syntax on
 
 let g:netrw_banner=0
 " let g:airline#extensions#tabline#enabled = 1
-Hello from vim
