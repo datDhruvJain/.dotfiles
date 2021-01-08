@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
