@@ -12,7 +12,7 @@ set foldmethod=syntax nofoldenable
 " set laststatus=2
 
 set bg=dark
-colorscheme my_molokai 
+colorscheme badwolf 
 
 " Key Shortcuts
 " ===============
