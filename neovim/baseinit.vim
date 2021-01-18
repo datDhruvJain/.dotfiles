@@ -5,8 +5,11 @@ set number noswapfile linebreak noerrorbells belloff=all
 " Fold settings
 set foldmethod=syntax nofoldenable
 
-" tabsize equal to 4
-set tabstop=4
+" tabsize equal to 4, and have the pretty '|' with tabs
+set tabstop=4 
+set listchars=tab:\|\ 
+set list
+
 " Highlight relative number :
 " cursorlineopt=both is for number and line : 
 " set cursorlineopt=number cursorline
