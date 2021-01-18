@@ -5,6 +5,8 @@ set number noswapfile linebreak noerrorbells belloff=all
 " Fold settings
 set foldmethod=syntax nofoldenable
 
+" tabsize equal to 4
+set tabstop=4
 " Highlight relative number :
 " cursorlineopt=both is for number and line : 
 " set cursorlineopt=number cursorline
