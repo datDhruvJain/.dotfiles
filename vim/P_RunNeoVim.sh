@@ -5,7 +5,7 @@ rm ~/.local/share/nvim/site/pack/bundle/start/vim-mucomplete
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-echo "call plug#begin('~/.config/nvim/plugged')\n" > ~/.dotfiles/vim/init.vim
+echo "call plug#begin('~/.config/nvim/plugged')" > ~/.dotfiles/vim/init.vim
 cat ~/.dotfiles/vim/pluginsrc.vim >> ~/.dotfiles/vim/init.vim
 echo "call plug#end()" >> ~/.dotfiles/vim/init.vim
 cat ~/.dotfiles/vim/baserc.vim >> ~/.dotfiles/vim/init.vim
