@@ -1,3 +1,4 @@
+
 set number noswapfile linebreak noerrorbells belloff=all
 " relativenumber nobackup nowritebackup nowrap
 "
@@ -12,6 +13,13 @@ set list
 " Highlight relative number :
 " cursorlineopt=both is for number and line : 
 " set cursorlineopt=number cursorline
+
+" MUcomplete settings
+set completeopt+=menuone
+set completeopt+=noselect
+let g:mucomplete#enable_auto_at_startup = 1
+
+set omnifunc=syntaxcomplete#Complete
 
 " hide/show the bottom status bar : 
 " set laststatus=2
@@ -45,31 +53,3 @@ syntax on
 
 let g:netrw_banner=0
 let g:netrw_liststyle = 3
-
-" ---
-" Simple autocomplete engine
-
-inoremap <expr> <Tab> TabComplete()
-fun! TabComplete()
-    if getline('.')[col('.') - 2] =~ '\K' || pumvisible()
-        return "\<C-P>"
-    else
-        return "\<Tab>"
-    endif
-endfun
-
-" Minimalist-AutoCompletePop-Plugin
-set completeopt=menu,menuone,noinsert
-inoremap <expr> <CR> pumvisible() ? "\<C-Y>" : "\<CR>"
-autocmd InsertCharPre * call AutoComplete()
-fun! AutoComplete()
-    if v:char =~ '\K'
-        \ && getline('.')[col('.') - 4] !~ '\K'
-        \ && getline('.')[col('.') - 3] =~ '\K'
-        \ && getline('.')[col('.') - 2] =~ '\K' " last char
-        \ && getline('.')[col('.') - 1] !~ '\K'
-
-        call feedkeys("\<C-P>", 'n')
-    end
-endfun
-" ---
