@@ -1,3 +1,17 @@
+call plug#begin('~/.vim/plugged')
+"---
+"call plug#begin('~/.config/nvim/plugged') " is handled by P_RunNeoVim.sh
+
+Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+"Plug 'sainnhe/sonokai'
+"Plug 'lifepillar/vim-mucomplete'
+"Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+
+" call plug#end() " is also handled by P_RunNeoVim.sh
+"---
+call plug#end()
 
 set number noswapfile linebreak noerrorbells belloff=all
 " relativenumber nobackup nowritebackup nowrap
@@ -52,4 +66,5 @@ filetype indent plugin on
 syntax on
 
 let g:netrw_banner=0
-"let g:netrw_liststyle = 3
+" let g:netrw_liststyle = 3
+
