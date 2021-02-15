@@ -10,3 +10,4 @@ cat ~/.dotfiles/neovim/baseinit.vim >> ~/.dotfiles/neovim/init.vim
 
 ln -s ~/.dotfiles/neovim/colors ~/.config/nvim/colors
 ln -s ~/.dotfiles/neovim/init.vim ~/.config/nvim/init.vim
+ln -s ~/.dotfiles/vim-mucomplete ~/.local/share/nvim/site/pack/bundle/start/vim-mucomplete
