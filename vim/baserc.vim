@@ -25,7 +25,7 @@ set omnifunc=syntaxcomplete#Complete
 " set laststatus=2
 
 set bg=dark
-colorscheme badwolf 
+colorscheme PaperColor 
 
 " Key Shortcuts
 " ===============
