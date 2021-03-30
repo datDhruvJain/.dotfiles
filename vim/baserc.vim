@@ -29,23 +29,23 @@ colorscheme PaperColor
 
 " Key Shortcuts
 " ===============
-let mapleader=","
+"let mapleader=","
 
 " netrw Stuff
 " ------------------
 " nmap <leader>n :19Lexplore<cr>
 " open Netrw on left
- nmap <leader>n :19Lexplore!<cr>
+" nmap <leader>n :19Lexplore!<cr>
 " open Netrw on right
 
 " some utility stuff
-nmap <leader>t :tabnew<cr>
+"nmap <leader>t :tabnew<cr>
 
-nmap <leader>q :set number<cr>
-nmap <leader>w :set nonumber<cr>
+"nmap <leader>q :set number<cr>
+"nmap <leader>w :set nonumber<cr>
 
-nmap <leader>f :set foldenable<cr>
-nmap <leader>F :set nofoldenable<cr>
+"nmap <leader>f :set foldenable<cr>
+"nmap <leader>F :set nofoldenable<cr>
 
 
 filetype indent plugin on
