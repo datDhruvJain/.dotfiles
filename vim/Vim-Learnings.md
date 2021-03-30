@@ -1,10 +1,18 @@
-# Completion Features
+## Week 1
+
+`w`: jump to next word
+`b`: jump to previous word
+`a`: insert after cursor
+`gg = G`: auto-indent file
+
+## Completion
 
 (do not work in normal mode, work in insert mode, Don't know about other modes)
-- `<Ctrl-x>` brings up autocompletion features.
-- `<Ctrl-n>` matches word already used in the file
-- `<Ctrl-l>` matches entire lines
-- `<Ctrl-n Ctrl-p>` brings up omnicompletion
+
+`ctrl x ctrl o`: trigger omnifunc
+`ctrl x ctrl n` or `ctrl n`: triggers *next* word completion
+`ctrl x ctrl p` or `ctrl p`: triggers *previous* word completion
+`ctrl x ctrl l`: triggers whole line completion
 
 # StatusLine
 
