@@ -1,5 +1,5 @@
 " ---------------------------------------------------------------
- Simple autocomplete engine
+" Simple autocomplete engine
 
 inoremap <expr> <Tab> TabComplete()
 fun! TabComplete()
