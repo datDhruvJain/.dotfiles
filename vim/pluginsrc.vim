@@ -8,5 +8,6 @@
 "Plug 'lifepillar/vim-mucomplete'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'lifepillar/vim-mucomplete'
+"Plug 'itchyny/lightline.vim'
 " call plug#end() " is also handled by P_RunNeoVim.sh
 "---

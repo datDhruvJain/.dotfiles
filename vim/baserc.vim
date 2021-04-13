@@ -10,6 +10,14 @@ set tabstop=4 shiftwidth=4
 set listchars=tab:\|\ 
 set list
 
+" --- Mouse Support ---
+" set mouse=nicr 
+" to allow for scrolling
+" maybe also checkout 
+" set mouse=a
+" ---
+
+" --- Number row ---
 " Highlight relative number :
 " cursorlineopt=both is for number and line : 
 " set cursorlineopt=number cursorline

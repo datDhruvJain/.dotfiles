@@ -1,5 +1,6 @@
 cd k3rne1p4nics
-alias nvim="~/k3rne1p4nics/nvim-osx64/bin/nvim"
+alias nv="neovim/path/here"
+alias nvim="nv"
 alias ls='ls -G'
 
 # Prompt customization
