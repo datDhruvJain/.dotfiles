@@ -1,12 +1,4 @@
-pkg update -y
-pkg install -y git python openssh gnupg neovim zsh
-chsh -s zsh
-
-#echo "alias pip='python -m pip'" > .zshrc
-#echo "alias py=python" >> .zshrc
-#echo "alias vim='nvim'" >> .zshrc
-
-echo "# Aliases
+# Aliases
 
 # Python Aliases
 alias pip='python3 -m pip'
@@ -35,4 +27,4 @@ HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
 bindkey -e
-# End of lines configured by zsh-newuser-install" >> .zshrc
+# End of lines configured by zsh-newuser-install
