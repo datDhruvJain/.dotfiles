@@ -1,7 +1,9 @@
-cd k3rne1p4nics
-alias nv="neovim/path/here"
-alias nvim="nv"
-alias ls='ls -G'
+# Aliases
+
+# Python Aliases
+alias pip='python3 -m pip'
+alias python='python3'
+alias py='python3'
 
 # Prompt customization
 
